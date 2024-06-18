@@ -1,0 +1,14 @@
+﻿Build started 17/06/2024 22:25:37.
+     1>Project "C:\Users\Luan\Desktop\xmb_plugin\xmb_plugin\xmb_plugin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         xmb_plugin.cpp
+         ps3ppusnc.exe -DNDEBUG -D__PS3__ -DLIBNAME=cellPrx_xmb_plugin -DSTUBNAME=cellPrx_xmb_plugin_stub -o PS3_Release\xmb_plugin.o -c -Xdepmode=1 -MD -Xmserrors -IC:\Users\Luan\Desktop\xmb_plugin\vendor\vsh\include -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -O2 -Xbranchless=2 -Xstd=cpp11 -Xc-=rtti C:\Users\Luan\Desktop\xmb_plugin\xmb_plugin\xmb_plugin.cpp
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "C:\Users\Luan\Desktop\xmb_plugin\\built\release\xmb_plugin.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" -s -strip-unused-data --start-group PS3_Release\xmb_plugin.o PS3_Release\prxmain.o PS3_Release\Detours.o PS3_Release\Common.o PS3_Release\Syscalls.o PS3_Release\Timer.o "C:/usr/local/cell\target\ppu\lib\fno-exceptions\libstdc++_stub.a" "C:/usr/local/cell\target\ppu\lib\fno-exceptions\fno-rtti\libstdc++_stub.a" C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a C:/usr/local/cell\target\ppu\lib\libstdc++_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\librtc_stub.a "-lallocator_export_stub" "-lcrashdump_system_export_stub" "-lesecron_export_stub" "-lnetctl_main_export_stub" "-lpaf_export_stub" "-lpngdec_ppuonly_export_stub" "-lsdk_export_stub" "-lstdc_export_stub" "-lsys_io_export_stub" "-lsys_net_export_stub" "-lsysPrxForUser_export_stub" "-lvsh_export_stub" "-lvshmain_export_stub" "-lvshcommon_export_stub" "-lvshtask_export_stub" "-lxsetting_export_stub" libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         xmb_plugin.vcxproj -> C:\Users\Luan\Desktop\xmb_plugin\\built\release\xmb_plugin.sprx
+         Cannot find the expected PRX Stub Library file: cellPrx_xmb_plugin_stub.a
+     1>Done Building Project "C:\Users\Luan\Desktop\xmb_plugin\xmb_plugin\xmb_plugin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.54
