@@ -29,6 +29,9 @@ extern "C"
 				Timer::Sleep(1000);
 			} while (!paf::View::Find("explore_plugin"));
 
+			// Avoid random crashes when enabling HEN or booting the CFW
+			Timer::Sleep(2000);
+
 			if (!LoadIpText())
 				return;
 
