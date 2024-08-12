@@ -184,10 +184,6 @@ std::wstring GetText()
             {
                 serverName = L"PlayStation Rewired";
             }
-            else if (dnsPrimary == L"146.190.205.197" || dnsSecondary == L"146.190.205.197")
-            {
-                serverName = L"Far Cry 2 Revived";
-            }
             else if (dnsPrimary == L"45.7.228.197" || dnsSecondary == L"45.7.228.197")
             {
                 serverName = L"Open Spy";
