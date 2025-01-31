@@ -142,7 +142,7 @@ paf::PhWidget* GetParent()
 
 std::wstring GetText()
 {
-    char ip[16] = {0};  // Inicializa o array com zeros
+    char ip[16] = {0};
     netctl::netctl_main_9A528B81(16, ip);
 
     std::wstring text(gIpBuffer);
@@ -203,6 +203,10 @@ std::wstring GetText()
             else if (dnsPrimary == L"52.86.120.101" || dnsSecondary == L"52.86.120.101")
             {
                 serverName = L"Destination Home";
+            }
+			else if (dnsPrimary == L"45.33.44.103" || dnsSecondary == L"45.33.44.103")
+            {
+                serverName = L"Go Central";
             }
             else
             {
