@@ -184,6 +184,10 @@ std::wstring GetText()
             {
                 serverName = L"PlayStation Rewired";
             }
+			else if (dnsPrimary == L"128.140.0.23" || dnsSecondary == L"128.140.0.23")
+            {
+                serverName = L"Project Neptune";
+            }
             else if (dnsPrimary == L"45.7.228.197" || dnsSecondary == L"45.7.228.197")
             {
                 serverName = L"Open Spy";
