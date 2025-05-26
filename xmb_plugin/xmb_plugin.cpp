@@ -212,6 +212,10 @@ std::wstring GetText()
             {
                 serverName = L"Go Central";
             }
+			else if (dnsPrimary == L"198.100.158.95" || dnsSecondary == L"198.100.158.95")
+            {
+                serverName = L"Warhawk Revived";
+            }
             else
             {
                 serverName = L"PlayStation™ Network";
