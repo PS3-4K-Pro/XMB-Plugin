@@ -216,10 +216,14 @@ std::wstring GetText()
             {
                 serverName = L"Warhawk Revived";
             }
-			else if (dnsPrimary == L"155.248.202.187" || dnsSecondary == L"198.100.158.95")
+			else if (dnsPrimary == L"155.248.202.187" || dnsSecondary == L"155.248.202.187")
             {
                 serverName = L"Monster Hunter Frontier: Renewal";
             }
+			else if (dnsPrimary == L"209.74.81.7" || dnsSecondary == L"209.74.81.7")
+			{
+				serverName = L"Rocket NET";
+			}
             else
             {
                 serverName = L"PlayStation™ Network";
